@@ -26,6 +26,7 @@ body {
   object-fit: cover;
   box-shadow: 2px 2px 5px rgba(255,255,255,0.5);
   transition-delay: 0s;
+  cursor: pointer;
 }
 
 .images.primary {
@@ -33,6 +34,7 @@ body {
   height: 430px;
   transition: 1s ease-out;
   transition-delay: 1s;
+  cursor: default;
 }
 
 .images:nth-child(1) {
